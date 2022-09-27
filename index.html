@@ -1,0 +1,65 @@
+<html>
+
+    <head>
+        <title>My Selfie App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <link href="style.css" rel="stylesheet">
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+    
+    </head>
+    
+    <body>
+        <center>
+            <h1>Collage Web App </h1>
+            <hr>
+            <h4>Please press allow as soon as popup comes. After you give a voice command</h4>
+    
+            <h3>Say "selfie" for taking your selfie to make a Collage</h3>
+
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
+            <hr>
+            <button class="btn btn-lg btn-primary" onclick="start()">Start</button>
+            <h4>Press the Start button</h4>
+    
+            <label>Your webcam : </label>
+            <div id="camera"></div>
+
+            <label>Your selfie will display here :</label>
+            <div id="result"></div>
+    
+            <br>
+    
+            
+            <br>
+            <div id="resultRow">
+                <div id="result1">
+                    <img src="https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtZXJhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60force=true">
+                    <hr>
+                </div>
+    
+                <div id="result2" class="column">
+                    <img src="https://images.unsplash.com/photo-1495745966610-2a67f2297e5e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGNhbWVyYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60force=true">
+                    <hr>
+                </div>
+
+                <div id="result3" class="column">
+                    <img src="https://images.unsplash.com/photo-1480365501497-199581be0e66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGNhbWVyYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60force=true">
+                    <hr>
+                </div>
+            </div>
+        </center>
+    
+        <script src="main.js"></script>
+        <div id="form-control">
+            <h4>Developed by Sophia.V</h4>
+        </div>
+            
+        </div>
+    </body>
+    
+    </html>
